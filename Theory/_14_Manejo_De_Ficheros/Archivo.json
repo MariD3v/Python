@@ -1,0 +1,10 @@
+{
+  "Nombre": "Mari",
+  "Apellidos": "Salar",
+  "Color": [
+    "Rosa",
+    "Azul",
+    "Amarillo"
+  ],
+  "Edad": 23
+}
