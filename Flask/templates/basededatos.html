@@ -1,0 +1,5 @@
+<ul>
+    {% for usuario in usuarios %}
+    <li>{{ usuario[2] }} </li>  <!-- En [] ponemos el numero de columna que queremos imprimir o el nombre de la columna ['username'], en caso de que dictionary = True en el cursor de la bd-->
+    {%  endfor %}
+</ul>

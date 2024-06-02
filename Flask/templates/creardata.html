@@ -1,0 +1,15 @@
+{% extends 'plantillabase.html' %}
+
+{% block title %}
+Envia tus datos a nuestra Base de datos
+{% endblock %}
+{% block content %}
+<form method="post">
+    <label>Username</label>
+    <input name="username" required />
+    <label>Email</label>
+    <input name="email" required />
+    <label>Edad</label>
+    <input name="edad" required />
+    <input type="submit" value="Guardar" />
+{% endblock %}

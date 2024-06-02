@@ -1,0 +1,7 @@
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+<body>
+    <section class="content">
+        {% block content %}{% endblock %}
+    </section>
+</body>
